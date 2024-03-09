@@ -8,7 +8,7 @@ import org.junit.Test;
 /**
  * @author leon on 29/01/2019.
  */
-public class GIsHappyTest {
+public class  GIsHappyTest {
 
     private StringsAndThings stringsAndThings;
 
@@ -33,7 +33,7 @@ public class GIsHappyTest {
     @Test
     public void gIsHappyTest3(){
         Boolean actual = stringsAndThings.gIsHappy("xxggyygxx");
-        Assert.assertTrue(actual);
+        Assert.assertFalse(actual);
     }
 
 }
